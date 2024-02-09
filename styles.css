@@ -27,6 +27,12 @@ nav {
   background-color: #f0f8ff;
 }
 
+figcaption {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
 .portrait {
   display: inline-flex;
   margin-right: 16px;
