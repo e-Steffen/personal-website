@@ -35,6 +35,13 @@ header {
 .nav-bar h1 {
   align-self: center;
   margin-left: 0.5rem;
+  margin-right: 0.75rem;
+}
+
+.getInTouch {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  align-self: center;
 }
 
 .nav-items {
@@ -101,6 +108,16 @@ figcaption {
 
 ul {
   list-style: circle;
+}
+
+.toTop {
+  position: fixed;
+  right: 2%;
+  bottom: 4%;
+}
+
+.toTop-Link:hover {
+  text-decoration: none;
 }
 
 footer {
