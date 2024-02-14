@@ -74,16 +74,8 @@ a:hover {
   text-decoration: underline;
 }
 
-figcaption {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 0.75rem;
-  text-align: center;
-  padding-left: 0.8rem;
-}
-
-.tiles {
+.tiles-frame {
   display: flex;
-  flex-wrap: inline-wrap;
   width: 95%;
   margin-left: 2.5%;
   justify-content: space-evenly;
@@ -100,7 +92,6 @@ figcaption {
   display: flex;
   justify-content: space-between;
   position: relative;
-  background-color: green;
 }
 
 .tPicOne,
@@ -120,11 +111,6 @@ figcaption {
   position: absolute;
   z-index: 5;
   display: none;
-}
-
-.tileOne__overlay article {
-  align-content: center;
-  background-color: blueviolet;
 }
 
 /*+++++++ modify at least +++++++++*/
