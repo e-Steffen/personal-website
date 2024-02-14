@@ -1,10 +1,24 @@
-const overlayTileOne = document.getElementsByClassName("tileOne__overlay");
-const tileOne = document.getElementsByClassName("tPicOne");
+const getOverlayTileOne = document.querySelector(".tileOne__overlay");
+const getTileOne = document.querySelector(".tileOne");
 const showOverlayOne = () => {
-  overlayTileOne.style.display = "block";
+  getOverlayTileOne.style.display = "flex";
 };
 const hideOverlayOne = () => {
-  overlayTileOne.style.display = "none";
+  getOverlayTileOne.style.display = "none";
 };
-tileOne.addEventListener("mouseover", showOverlayOne);
-tileOne.addEventListener("mouseout", hideOverlayOne);
+
+getTileOne.addEventListener("mouseover", showOverlayOne);
+getTileOne.addEventListener("mouseout", hideOverlayOne);
+
+// *****ALTERNATIVE SOLUTION*********/
+// const getOverlayTileOne = document.getElementsByClassName("tileOne__overlay")[0];
+// const getTileOne = document.getElementsByClassName("tileOne")[0];
+// const showOverlayOne = () => {
+//   getOverlayTileOne.style.display = "flex";
+// };
+// const hideOverlayOne = () => {
+//   getOverlayTileOne.style.display = "none";
+// };
+
+// getTileOne.addEventListener("mouseover", showOverlayOne);
+// getTileOne.addEventListener("mouseout", hideOverlayOne);
